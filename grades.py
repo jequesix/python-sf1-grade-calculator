@@ -62,4 +62,5 @@ grades = grades_input()
 avg = calculate_weighted_average(grades, [0.2, 0.15, 0.04, 0.125, 0.18, 0.06])
 
 # display weighted average on the screen
-print("Your average is " + str(avg) + "%")
+print("Your grade is:", avg)
+
