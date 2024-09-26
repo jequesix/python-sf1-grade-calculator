@@ -59,8 +59,9 @@ def grades_input() -> list[float]:
 
 
 grades = grades_input()
+
+# weights are separated from the inputs for modularity's sake
 avg = calculate_weighted_average(grades, [0.2, 0.15, 0.04, 0.125, 0.18, 0.06])
 
 # display weighted average on the screen
 print("Your grade is:", avg)
-
